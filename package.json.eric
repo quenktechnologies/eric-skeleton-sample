@@ -1,0 +1,10 @@
+{
+  "name": "{{project.name}}",
+  "version": "{{project.version}}",
+  "description": "{{project.description}}",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --opts mocha.opts $(find -name *_test.ts)"
+  },
+  "author": "{{project.author}}",
+  "license": "{{project.license.title}}"
+}
